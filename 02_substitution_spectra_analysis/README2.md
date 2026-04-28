@@ -12,4 +12,6 @@ In the "substitution_analysis.py" file:
 - Expressing opportunity-normalised values as proportions to allow comparison across
   species with differing SNP counts and genome content
   - added up the opportunity-normalised values across all of 6-class substitution spectra,      and divided each value by the total
-- saved my values to "XX_normalised_sub_table.csv", which would hold each substitution's normalised value (to six decimal places), what each substitution would look like per 1 million bases (to two decimal places), and each 're-normalised' value (to four decimal places)
+- Saved my values to "XX_normalised_sub_table.csv", which would hold each substitution's normalised value (to six decimal places), what each substitution would look like per 1 million bases (to two decimal places), and each 're-normalised' value (to four decimal places)
+- Counted transition and transversion substitutions
+- Calculated Ts/Tv ratio per species by dividing the transition count by the transversion     count, saving these to "XX_Ts_Tv_ratio.csv"
