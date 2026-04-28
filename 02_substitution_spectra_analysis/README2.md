@@ -7,5 +7,5 @@ In the "substitution_analysis.py" file:
 - To then normalise my substitution counts, accounting for their GC and AT genome content,
   - I calculated the GC and AT content of the reference genome by counting the number     of each valid base, then adding together the number of G+C and A+T bases
   - I accounted for the double-stranded nature of DNA, adding together the
-    counts of substitutions which would appear as pairs (e.g. C>T/G>A) on DNA
+    counts of substitutions which would appear as pairs (e.g. C>T/G>A) on DNA (producing 6-class           substitution spectra
   - I divided each C:G substitution by the total GC content and each T:A substitution     by the total AT content in the reference genome for that species,
