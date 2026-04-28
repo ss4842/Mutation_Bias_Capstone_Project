@@ -15,3 +15,6 @@ In the "substitution_analysis.py" file:
 - Saved my values to "XX_normalised_sub_table.csv", which would hold each substitution's normalised value (to six decimal places), what each substitution would look like per 1 million bases (to two decimal places), and each 're-normalised' value (to four decimal places)
 - Counted transition and transversion substitutions
 - Calculated Ts/Tv ratio per species by dividing the transition count by the transversion     count, saving these to "XX_Ts_Tv_ratio.csv"
+
+In the "substitution_count_raw.py" file:
+- 
