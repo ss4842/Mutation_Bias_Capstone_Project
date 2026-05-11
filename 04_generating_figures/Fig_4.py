@@ -2,7 +2,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import os
-os.chdir("/Users/sarasafciu/Desktop")
+os.chdir("/Users/ss4842/Desktop")
 
 def get_sample_counts(vcf_file):
     sample_names = []
