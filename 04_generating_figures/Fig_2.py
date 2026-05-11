@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-os.chdir("/Users/sarasafciu/Desktop/")
+os.chdir("/Users/ss4842/Desktop/")
 
 renormal = pd.read_csv("6_class_sub_spectra_renormalised_plot.csv")
 permilbas = pd.read_csv("6_class_sub_spectra_per_mil_bases_plot.csv")
