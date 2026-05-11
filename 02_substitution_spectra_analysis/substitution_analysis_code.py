@@ -154,7 +154,7 @@ renormalised_TC = normalised_TC/total
 renormalised_TG = normalised_TG/total
 
 with open("ST_Normalised_sub_table_final.csv", "w") as f:   #writing out in csv
-    f.write("substitution,normalised_count,per_million_bases, renormalised_count\n")  #writing out headers
+    f.write("substitution,normalised_count,per_million_bases,renormalised_count\n")  #writing out headers
 ##for each of 6-class sub types, writing out the normalised value, what that would look like per 1mil bases, then the renormalised value to base graph off of
 ##each normalised value written to 6sf, per mil bases to 2sf, renormalised to 4sf
     f.write(f"C>T/G>A, {normalised_CT:.6f}, {normalised_CT * 1000000:.2f}, {renormalised_CT:.4f}\n")  
