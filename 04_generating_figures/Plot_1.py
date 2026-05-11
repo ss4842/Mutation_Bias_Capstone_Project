@@ -4,7 +4,7 @@ matplotlib.use("Agg")
 import pandas as pd
 import matplotlib.pyplot as plt
 
-os.chdir("/Users/sarasafciu/Desktop/csvs/")
+os.chdir("/Users/ss4842/Desktop/csvs/")
 
 st = pd.read_csv("ST_sub_counts_plot.csv")
 spn = pd.read_csv("SPN_sub_counts_plot.csv")
@@ -33,5 +33,5 @@ for ax in axes.flat:
 
 plt.suptitle("12-Class Substitution Spectrum Across Four Bacterial Species", fontsize = 16)
 plt.tight_layout()
-plt.savefig("substitution_spectrum_4_species_2.png", dpi=300)
+plt.savefig("substitution_spectrum_4_species.png", dpi=300)
 plt.show()
